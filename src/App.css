@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --backgroundColor: #050990;
+}
+
+.App {
+  text-align: center;
+}
+
+.App .button-section {
+  margin: 20px 10px;
+  padding-top: 10px;
+}
+
+.App .button-section button {
+  margin-top: 30px;
+  background-color: var(--backgroundColor);
+}
+
+.App .content-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.App .content-section table {
+  width: 50%;
+}
+
+.App .content-section table thead {
+  background-color: var(--backgroundColor);
+  color: #fff;
+}
